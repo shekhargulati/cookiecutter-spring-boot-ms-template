@@ -1,0 +1,5 @@
+{
+    "service_name" : "My Service",
+    "service_slug" : "{{ cookiecutter.service_name.lower()|replace('-', ' ')|replace(' ', '-')|replace('.', '-')|trim() }}",
+    "service_port" : ""
+}
